@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  td:hover {
+    background-color: #f1f1f1;
+  }
+  
+  td:active {
+    background-color: #ddd;
+  }
+  
+  .row:nth-child(even) td {
+    background-color: #f9f9f9;
+  }
+  
+  .row:nth-child(odd) td {
+    background-color: #fff;
+  }
+  
+  td.operator {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  td.operator:hover {
+    background-color: #45a049;
+  }
+  
+  td.operator:active {
+    background-color: #3e8e41;
+  }
+  
+  td.equal {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  td.equal:hover {
+    background-color: #1e88e5;
+  }
+  
+  td.equal:active {
+    background-color: #1976d2;
+  }
