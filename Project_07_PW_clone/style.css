@@ -1,0 +1,420 @@
+#bgImage {
+  background-image: url(https://static.pw.live/ua/images/compress_background.webp);
+  height: 720px;
+}
+
+.container-fluid{
+  height: 400rem;
+}
+
+.navbar ul{
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.sec1 h1 {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+.sec1 p {
+  margin-left: 250px;
+}
+
+.sec1 button {
+  height: 50px;
+  width: 220px;
+}
+.box1 .row {
+  justify-content: center;
+}
+
+.box1 .row .col-3:hover {
+  border: 2px solid rgb(0, 57, 65);
+  transition: 0.3s ease;
+}
+
+.box1 .c1,
+.c2,
+.c3,
+.c4 {
+  width: 270px;
+  height: 170px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.box1 .row .c1,
+.c2,
+.c3,
+.c4 {
+  text-align: center;
+}
+
+.sec2 .box2 .row .col-4 {
+  margin: 20px;
+  border: 2px solid rgb(179, 179, 179);
+  width: 350px;
+  height: 235px;
+  border-radius: 10px;
+}
+.sec2 .box2 .row {
+  justify-content: center;
+}
+
+.sec2 .box2 .row .col-4 {
+  padding: 0%;
+}
+
+.sec2 .box2 .row .col-4:hover {
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.3s ease;
+}
+
+.sec2 .box2 .row .col-4 .texttt,
+.imageee {
+  height: 100%;
+}
+
+.box2 .row .col-4 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.imageee {
+  text-align: end;
+  padding-top: 65%;
+}
+
+.sec3 {
+  background-image: url(./images/pw-building.png);
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sec3box {
+  border-radius: 20px;
+  height: 450px;
+  width: 1100px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(199, 199, 199);
+}
+
+/* .sec3box .col-3{
+  display: flex;
+  border: 2px solid black;
+  
+} */
+.sec3 .boX {
+  border: 2px solid rgb(109, 109, 109);
+  border-radius: 3px;
+  height: 58px;
+  width: 200px;
+}
+
+.sec3box .row .col-3 {
+  padding: 30px 0px 30px 0px;
+  padding-left: 40px;
+}
+
+.boX:hover .texTT{
+  cursor: pointer;
+  color: royalblue;
+  transition: 0.3s ease;
+}
+
+.boX:hover .imagEE img {
+  transform: scale(1.2);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  /* or */
+  /* transition: 0.4s ease; */
+}
+
+.sec4 .row .col-3 {
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  height: 250px;
+  width: 250px;
+  margin: 8px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.sec4 .row {
+  justify-content: center;
+}
+
+.sec4 .row .col-3 .p {
+  font-size: 50px;
+}
+
+.sec4 .row .col-text  img{
+  opacity: 0.8;
+}
+
+.sec4 .row .col-3:hover .col-text {
+  transform: scale(1.2);
+  transition: 0.3s ease;
+}
+.sec4 .row .col-3:hover img{
+  opacity: 1.0;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.sec5 {
+  text-align: center;
+  justify-content: space-around;
+}
+
+/* #CAROUSEL-2 .carousel-item img{ 
+ border-radius: 5px;
+} */
+
+#CAROUSEL-2 .carousel-inner{ 
+  height: 400px;
+  width: 75%;
+  margin: auto;
+}
+
+.sec5 .s {
+  border-radius: 15px;
+  padding: 3px;
+  margin: 5px;
+  border: 2px solid rgb(138, 138, 138);
+}
+
+.sec5 .s:hover {
+ cursor:pointer;
+ background-color: rgb(220, 220, 220);
+}
+
+.app {
+  margin: auto;
+  text-align: end;
+  height: 400px;
+  width: 75%;
+  background-color: #eee6ff;
+  border-radius: 5px;
+  /* bordser: 2px solid black; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.app .row {
+  text-align: left;
+}
+
+.app .col-8 {
+  align-content: center;
+  padding-left: 70px;
+}
+
+.sec6{
+  background-color: rgb(233, 233, 233);
+}
+
+.sec6 .row .col-12{
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 295px;
+  width: 1200px;
+}
+
+/* Card Items */
+.cardI img{
+  height: 35px;
+  margin: 20px 0px 20px 0px;
+}
+
+.cardImage img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 290px;
+}
+
+.sec6 .row .col-4{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 295px;
+  width: 330px;
+}
+
+.sec6 .row .col-12{
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.cardS img{
+  height: 25px;
+  margin: 20px 0px 20px 0px;
+}
+
+.sec6 .row .col-4 p{
+  overflow:auto;
+  /* box-sizing: border-box; */
+  height: 150px;
+}
+.sec6 .row{
+  justify-content: center;
+}
+
+.sec7 .row{
+  justify-content: center;
+}
+
+.sec7 .col-4{
+  border-radius: 5px;
+  margin: 10px;
+  height: 350px;
+  width: 350px;
+}
+
+.sec7 .col-4 .img{
+  text-align: center;
+}
+
+/* .sec7 .col-4 .img img{
+  height: 150px;
+} */
+
+
+#B1{
+  background-color:  #e6f9ff;
+}
+#B2{
+  background-color:   #fff2e6;
+}
+#B3{
+  background-color:    #ebfaeb;
+}
+
+#B1:hover{
+  background-color:  	 #ccebff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#B1:hover img{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+#B2:hover{
+  background-color:  	 #fae4c2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#B2:hover img{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+#B3:hover{
+  background-color:  	 	 #ccffcc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#B3:hover img{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+/* .sec8 .BOX{
+  height: auto;
+  width: 1200px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.BOX .row .col-6{
+  margin: 0%;
+  padding: 4.5px;
+}
+.BOX .row{
+  
+}
+.BOX img{
+  height: 150px;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0%{
+    transform: translate(-800px , 0px);
+  }
+  50%{
+    transform: translate(400px , 0px);
+    
+  }
+} */
+
+
+/* Footer - 1 */
+
+#sl-2{
+  opacity: 0.9;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#SEC-L , #SEC-R{
+  font-family:serif
+}
+
+#SEC-R .sr-ul{
+  margin-bottom: 8px;
+  font-size: 19px;
+  font-weight: 900;
+}
+#SEC-R .sr-li{
+  font-size: 16px;
+  opacity: 0.8;
+}
+#sl-5 a{
+  text-decoration: none;
+}
+
+/* FOOTER - 2 */
+
+footer{
+  background-color: rgb(233, 233, 233);
+}
+.FOOTER2 .F2-heading{
+  font-family: "Overpass", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  opacity: 0.9;
+ 
+}
+
+.FOOTER2 p{
+  font-family: "Darker Grotesque", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  opacity: 0.8;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+}
+
+.FOOTER2 .F2-def{
+  padding-bottom: 5px;
+  font-family: "Overpass", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.FOOTER2 .F2-para{
+  padding-top: 0px;
+}
+
+.FOOTER1 , .FOOTER2:hover{
+  cursor: pointer;
+}
+
+#END{
+  font-family: "Darker Grotesque", serif;
+  font-size: large;
+  font-weight: 600;
+}
